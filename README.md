@@ -1,5 +1,5 @@
 # PC-Builder
-This was a final project made for the class python concepts and methodology II, taken in spring 2021. The assignnment was as follows:
+This was a final project made for the class python concepts and methodology I, taken in fall 2020. The assignnment was as follows:
 
 The final project for the class is principally a gui driven webscrape. Here're the requirements:
 
@@ -25,3 +25,8 @@ Quote must be dated.
 User changes to the above should change the quote.
 The save button should write the quote to a file, it can be a simple text document, but nice formatting is nice. 
 
+Project explanation:
+Firstly, the user must enter their total budget for the PC. The program will then divide it up into allocations for each part. I set defaults for each part based on experience and
+testing, but the user has the ability to motify how much each part will be allocated. Once the user runs the program, it will go to Newegg.com and searches on the webpage
+that is passed to the method. It will search for the most expensive part that it can buy with the allocated budget of the part, and saves that to display to the GUI. 
+Once the GUI has run, the user has the option to save the results to a file, where they can access it later. 
